@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=yes' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="styles.css" rel=stylesheet />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+    
+<div id='map'></div>
+<div id='panel'>
+    <h1>Ice Cream</h1>
+    <h2> Map of Oakland</h2>
+</div>
+
+<div class='map-overlay-container'>
+  <div class='map-overlay'>
+    <h2 id='location-title'></h2>
+    <p id='location-description'></p>
+    
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
+
